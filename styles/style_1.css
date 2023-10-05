@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav bar */
+.navbar {
+  margin-bottom: 0;
+  background-color: #f4511e;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+/*profile-img*/
+#profile-img{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+/* Typing text */
+.intro-text {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.intro-text p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.intro-text p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.intro-text p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+h2 {
+  text-transform: uppercase;
+  text-decoration: double;
+  font-weight: 600;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  text-align: center;
+  text-decoration-color: !important;
+  text-decoration-line: underline overline;
+}
+
+.jumbotron {
+  background-color: #080808;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+#about{
+  color: #080808;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 60px;
+  }
+  
+#about h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}  
+.detail_table li{
+  font-size: 16px;
+  line-height: 1.375em;
+  font-weight: 400;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#lab_profile{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin:auto;
+}
+
+/*Resume*/
+#resume{
+  color: #080808;
+  padding: 0px 30px 0px 30px;
+  background:#f9efe4;
+  margin-bottom: 60px;
+  }
+
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+.resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume-item ul li {
+  padding-bottom: 10px;
+}
+
+/* Project*/
+#project{
+  background: #ffffff;
+  color: #050d18;
+  text-align: center;
+  font-size: large;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 60px;
+}
+
+#project #game{
+  height: 300px;
+}
+
+#contact{
+  background:#f9efe4;
+  color: #050d18;
+  font-size: large;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 60px;
+}
+
+#contact span{
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+}
+
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  background-color: #050d18;
+  color: #fff;
+  margin: 0;
+}
+footer p {
+  text-align: center;
+  font-size: large;
+}
