@@ -133,6 +133,9 @@ h2 {
   background:#f9efe4;
   margin-bottom: 60px;
   }
+#resume h4{
+  font-weight: bold;
+  }
 
 .resume-title {
   font-size: 26px;
