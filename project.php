@@ -1,0 +1,13 @@
+<?php  
+    $pageTitle = 'Home';
+    $headerImg = 'images/2025-12-11_175409.png';
+    $profImg = 'images/IMG-20231013-WA0000.jpg';
+    include 'inc/header.inc.php';
+
+?>
+<?php  
+    include 'inc/projects.inc.php';
+?>
+<?php 
+    include 'inc/footer.inc.php';
+?>
